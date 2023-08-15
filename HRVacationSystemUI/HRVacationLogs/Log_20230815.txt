@@ -1,0 +1,87 @@
+15.08.2023 15:27:20 - Program Başladı
+15.08.2023 15:28:18 - Program Başladı
+15.08.2023 15:35:34 - Program Başladı
+15.08.2023 15:41:09 - Program Başladı
+15.08.2023 15:42:10 - Program Başladı
+15.08.2023 15:42:55 - Program Başladı
+15.08.2023 15:43:05 - Program Başladı
+15.08.2023 15:43:45 - Program Başladı
+15.08.2023 15:44:33 - Program Başladı
+15.08.2023 15:46:30 - Program Başladı
+15.08.2023 15:46:48 - Program Başladı
+15.08.2023 15:47:46 - Program Başladı
+15.08.2023 15:48:39 - Program Başladı
+15.08.2023 15:49:09 - Program Başladı
+15.08.2023 15:49:53 - Program Başladı
+15.08.2023 15:50:38 - Program Başladı
+15.08.2023 15:51:08 - Program Başladı
+15.08.2023 15:51:35 - Program Başladı
+15.08.2023 15:51:59 - Program Başladı
+15.08.2023 15:52:29 - Program Başladı
+15.08.2023 15:52:51 - Program Başladı
+15.08.2023 15:53:14 - Program Başladı
+15.08.2023 15:53:44 - Login/SignIn Error - System.NullReferenceException: Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+   konum: HRVacationSystemBL.MyPasswordHasher.ValidateUser(Personel personel, String password) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemBL\MyPasswordHasher.cs içinde: satır 38
+   konum: HRVacationSystemBL.PersonelManager.PersonelSignIn(String email, String password) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemBL\PersonelManager.cs içinde: satır 30
+   konum: HRVacationSystemUI.Controllers.LoginController.SignIn(String txtEmail, String txtPassword) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\LoginController.cs içinde: satır 46
+15.08.2023 15:54:03 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 15:54:04 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 15:54:07 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+15.08.2023 15:54:11 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+15.08.2023 15:55:15 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 15:55:19 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+15.08.2023 15:55:55 - Program Başladı
+15.08.2023 15:56:06 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 15:56:10 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+15.08.2023 16:05:16 - Program Başladı
+15.08.2023 16:06:49 - Program Başladı
+15.08.2023 16:07:21 - Program Başladı
+15.08.2023 16:08:25 - Program Başladı
+15.08.2023 16:09:08 - Program Başladı
+15.08.2023 16:10:22 - Program Başladı
+15.08.2023 16:10:43 - Program Başladı
+15.08.2023 16:10:58 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 16:11:00 - Login/SignIn - caglanurp@gmail.com
+15.08.2023 16:11:02 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\cagla\Desktop\HRVacationSystemHumanGroup-master2 (1)\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+15.08.2023 16:12:35 - Program Başladı
+15.08.2023 16:13:46 - Program Başladı
+15.08.2023 16:14:34 - Program Başladı
+15.08.2023 16:15:05 - Program Başladı
+15.08.2023 16:15:19 - Program Başladı
+15.08.2023 16:16:53 - Program Başladı
+15.08.2023 16:17:52 - Program Başladı
+15.08.2023 16:18:25 - Program Başladı
+15.08.2023 16:19:38 - Program Başladı
+15.08.2023 16:21:08 - Program Başladı
+15.08.2023 16:26:18 - Program Başladı
+15.08.2023 16:31:53 - Program Başladı

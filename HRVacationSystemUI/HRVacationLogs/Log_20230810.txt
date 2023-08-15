@@ -1,0 +1,10 @@
+10.08.2023 20:56:26 - Program Başladı
+10.08.2023 21:02:42 - Program Başladı
+10.08.2023 21:04:01 - Vacation/CreateVacationRequest Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   konum: System.Net.WebClient.UploadString(Uri address, String method, String data)
+   konum: HRVacationSystemUI.Controllers.VacationController.CreateVacationRequest(PersonelVacation model) C:\Users\betulaksan\source\proje\HRVacationSystemUI\Controllers\VacationController.cs içinde: satır 165
+10.08.2023 21:06:17 - Program Başladı

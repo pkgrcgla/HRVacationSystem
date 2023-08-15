@@ -1,0 +1,54 @@
+﻿@model HRVacationSystemUI.Models.RegisterViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutMeyavo.cshtml";
+
+}
+
+
+
+<div class="container text-center">
+    <p class="section-subtitle text-opacity-100">KAYIT OLABİLİRSİNİZ</p>
+    <h4 class="section-title mb-5">Kayıt Formu</h4>
+    <!-- contact form -->
+    @using (Html.BeginForm("Register", "Login", FormMethod.Post))
+    {
+
+        <div class="form-row">
+            <div class="form-group col-sm-12">
+
+                @Html.ValidationSummary("", new { @class = "text-danger" })
+            </div>
+
+
+
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.Name, null, new { @class = "form-control", placeholder = "İsim" })
+            </div>
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.Surname, null, new { @class = "form-control", placeholder = "Soyisim" })
+            </div>
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.Email, null, new { @class = "form-control", placeholder = "Email" })
+            </div>
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.Password, null, new { @class = "form-control", placeholder = "Şifre", @type = "password" })
+            </div>
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.ConfirmPassword, null, new { @class = "form-control", placeholder = "Şifreyi Tekrar Giriniz", @type = "password" })
+            </div>
+            <div class="form-group col-sm-6">
+                @Html.TextBoxFor(x => x.BirthDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control", placeholder = "Doğum Tarihinizi Giriniz" }) <br />
+            </div>
+            <div class="form-group col-sm-12">
+                @Html.DropDownListFor(x => x.GenderPage, (List<SelectListItem>)ViewBag.Genders, new { @class = "form-control" }) <br />
+            </div>
+            <div class="form-group col-sm-12 mt-3">
+                <input type="submit" value="KAYIT OL" class="btn btn-primary rounded">
+                @Html.ActionLink("GİRİŞ YAP", "SignIn", "Login", new { @class = "btn btn-outline-primary rounded " })
+            </div>
+            </div>
+            }
+
+        </div>
+
+

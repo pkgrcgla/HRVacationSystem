@@ -1,0 +1,83 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HR Vacation System </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HR Vacation System</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="~/meyawo template/assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="~/meyawo template/assets/css/meyawo.css">
+</head>
+<body>
+    <nav class="custom-navbar " data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo colored-text" href="#">HR Vacation System</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="index.html#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="index.html#about">About</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="index.html#services">Services</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="index.html#work">Work</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="index.html#blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav><!-- End of Page Navbar -->
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            @RenderBody()
+
+        </div>
+    </header><!-- end of page header -->
+
+
+
+
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">
+                Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; Tüm Hakları HumanGroup .Net6 Eğitimine Aittir. </a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+    <!-- core  -->
+    <script src="~/meyawo template/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="~/meyawo template/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="~/meyawo template/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="~/meyawo template/assets/js/meyawo.js"></script>
+</body>
+</html>

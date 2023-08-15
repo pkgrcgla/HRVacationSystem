@@ -1,0 +1,31 @@
+﻿@model HRVacationSystemDL.PersonelVacation
+@{
+    ViewBag.Title = "CreateVacationRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CreateVacationRequest</h2>
+<div class="row">
+
+    @using (Html.BeginForm("CreateVacationRequest", "Vacation", FormMethod.Post))
+    {
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+        <div class="col-8 offset-2 offset-2">
+
+            @Html.DropDownListFor(x => x.VacationTypeId, (List<SelectListItem>)ViewBag.VacationTypes, new {  @class = "form-control" }) <br />
+
+            @Html.TextBoxFor(x => x.VacationStartDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control", placeholder = "İzin Başlangıç Tarihi" })
+            <br />
+
+            @Html.TextBoxFor(x => x.VacationEndDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control", placeholder = "İzin Bitiş Tarihi" })
+            <br />
+
+            <input type="submit" id="deneme" value="TALEP OLUŞTUR" class="btn btn-primary">
+
+        </div>
+    }
+
+
+
+</div>
